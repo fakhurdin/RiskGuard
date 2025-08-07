@@ -2,7 +2,7 @@
 
 **RiskGuard** is a modern Governance, Risk, and Compliance (GRC) dashboard solution tailored for organizations and cybersecurity professionals to manage risks effectively. It offers a clean UI, light/dark themes, animations, and essential features to make GRC processes more accessible, collaborative, and insightful.
 
-🌐 [Live Site →](https://risk-guard-wwvh.vercel.app)
+🌐 [Live Site -🟢](https://risk-guard-wwvh.vercel.app)
 
 ---
 
@@ -35,15 +35,7 @@
 - `/assessment` → Risk Assessment Module
 - `/collab` → Collaborate with Team
 - `/contact` → Contact Page
-
 ---
-
-## 📸 Screenshots
-
-*(Add screenshots if available to give viewers a preview of your dashboard UI.)*
-
----
-
 ## 💡 How to Use
 
 1. Clone the repository:
@@ -89,7 +81,7 @@ This project is live and hosted on **Vercel**. To deploy your own version:
 
 **Fakhur Ul Din**  
 Cybersecurity | GRC | Web Security  
-📧 [Email](mailto:youremail@example.com)  
+📧 [Email](mailto:fakhurdin987@gmail.com)  
 🌐 [Portfolio](https://fakhurdin.vercel.app)  
 🐙 [GitHub](https://github.com/fakhurdin)  
 🔗 [LinkedIn](https://linkedin.com/in/fakhurdin)
