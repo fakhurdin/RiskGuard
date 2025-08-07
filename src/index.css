@@ -1,0 +1,166 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Cybersecurity GRC Design System - Professional & Modern */
+
+@layer base {
+  :root {
+    /* Cybersecurity color palette */
+    --background: 220 15% 5%;
+    --foreground: 210 20% 95%;
+
+    --card: 220 15% 8%;
+    --card-foreground: 210 20% 95%;
+
+    --popover: 220 15% 8%;
+    --popover-foreground: 210 20% 95%;
+
+    /* Electric blue primary */
+    --primary: 212 100% 60%;
+    --primary-foreground: 220 15% 5%;
+    --primary-glow: 212 100% 70%;
+
+    /* Professional secondary */
+    --secondary: 220 15% 12%;
+    --secondary-foreground: 210 20% 85%;
+
+    --muted: 220 15% 10%;
+    --muted-foreground: 210 10% 65%;
+
+    /* Purple accent for premium feel */
+    --accent: 270 70% 60%;
+    --accent-foreground: 220 15% 5%;
+
+    /* Security-focused destructive */
+    --destructive: 0 85% 55%;
+    --destructive-foreground: 210 20% 95%;
+
+    --border: 220 15% 15%;
+    --input: 220 15% 12%;
+    --ring: 212 100% 60%;
+
+    --radius: 0.5rem;
+
+    /* Cybersecurity gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
+    --gradient-security: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--accent)));
+    --gradient-card: linear-gradient(135deg, hsl(var(--card)), hsl(var(--secondary)));
+    
+    /* Custom shadows */
+    --shadow-glow: 0 0 40px hsl(var(--primary) / 0.2);
+    --shadow-card: 0 8px 32px hsl(var(--background) / 0.8);
+
+    /* Animation tokens */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  .light {
+    /* Light mode for cybersecurity tool */
+    --background: 210 20% 98%;
+    --foreground: 220 15% 10%;
+    --card: 210 20% 100%;
+    --card-foreground: 220 15% 10%;
+    --primary: 212 100% 50%;
+    --primary-foreground: 210 20% 98%;
+    --secondary: 210 15% 92%;
+    --secondary-foreground: 220 15% 20%;
+    --muted: 210 15% 95%;
+    --muted-foreground: 220 10% 45%;
+    --accent: 270 70% 55%;
+    --accent-foreground: 210 20% 98%;
+    --border: 210 15% 85%;
+    --input: 210 15% 90%;
+    --ring: 212 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    background-image: radial-gradient(circle at 20% 80%, hsl(var(--primary) / 0.05) 0%, transparent 50%),
+                      radial-gradient(circle at 80% 20%, hsl(var(--accent) / 0.05) 0%, transparent 50%);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold tracking-tight;
+  }
+}
+
+@layer components {
+  /* Hero section styles */
+  .hero-gradient {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .card-glow {
+    background: var(--gradient-card);
+    box-shadow: var(--shadow-card);
+  }
+
+  .glow-effect {
+    box-shadow: var(--shadow-glow);
+  }
+
+  /* Animation classes */
+  .animate-fade-in {
+    animation: fadeIn 0.6s ease-out forwards;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.8s ease-out forwards;
+  }
+
+  .animate-glow {
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+}
+
+@layer utilities {
+  .transition-smooth {
+    transition: var(--transition-smooth);
+  }
+
+  .transition-bounce {
+    transition: var(--transition-bounce);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 20px hsl(var(--primary) / 0.3);
+  }
+  to {
+    box-shadow: 0 0 40px hsl(var(--primary) / 0.6);
+  }
+}
