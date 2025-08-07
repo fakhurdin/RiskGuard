@@ -1,73 +1,73 @@
-# Welcome to your Lovable project
+# RiskGuard - GRC Tool 🚨🔐
 
-## Project info
+🌐 [Live Demo](https://risk-guard-wwvh.vercel.app/)
 
-**URL**: https://lovable.dev/projects/29b5bc86-4421-4dc3-8aeb-6bbd0d28779c
+RiskGuard is a modern Governance, Risk, and Compliance (GRC) tool designed for cybersecurity professionals and organizations. Built with a focus on usability, dark/light modes, and secure architecture, it helps manage risk registers, assessments, collaborations, and more — all in one unified platform.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Features
 
-**Use Lovable**
+- 🌗 Dark and Light Mode UI  
+- 🔍 Risk Register System  
+- 📋 Assessment Modules (Risk, Compliance, Control)  
+- 👥 Collaboration and Communication Area  
+- 🌐 Informative Website Pages (Home, About, Contact)  
+- 🧪 Test-ready components with animation support  
+- 🛠️ Backend-ready structure (if needed)  
+- ☁️ Hosted on Vercel for blazing-fast performance  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/29b5bc86-4421-4dc3-8aeb-6bbd0d28779c) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 📁 Folder Structure
 
-**Use your preferred IDE**
+```bash
+📦 RiskGuard/
+├── public/
+│   └── assets/       # Images, icons, static media
+├── src/
+│   ├── components/   # Reusable UI components
+│   ├── pages/        # All main pages (Home, About, etc.)
+│   ├── sections/     # Homepage and section-specific elements
+│   └── styles/       # TailwindCSS and custom styling
+├── .gitignore
+├── README.md
+└── ...
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+🔧 Technologies Used
+⚛️ React.js
 
-Follow these steps:
+💨 Tailwind CSS
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+🌐 Vercel (Deployment)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+🧩 Framer Motion (Animations)
 
-# Step 3: Install the necessary dependencies.
-npm i
+☁️ Modern Web Stack
+📦 Installation & Setup
+bash
+Copy
+Edit
+# Clone the repository
+git clone https://github.com/fakhurdin/RiskGuard.git
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Navigate to the project directory
+cd RiskGuard
+
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+🧑‍💻 Author
+Fakhur Ul Din
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
 
-**Use GitHub Codespaces**
+🤝 Contributing
+Contributions, feedback, and suggestions are welcome!
+Please open an issue or pull request to collaborate.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/29b5bc86-4421-4dc3-8aeb-6bbd0d28779c) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+📜 License
+This project is licensed under the MIT License.
